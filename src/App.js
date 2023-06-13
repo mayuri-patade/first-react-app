@@ -4,11 +4,10 @@
 //Syntax :: () //Empty JSX
 //Syntax :: (<h1>Hello</h1>)
 function App() {
-  return (
-  <>
-  <h1>Hello World</h1>
-  </>
-  );
+  //jsx single linear
+  let jsx1 = <h1>Hello World</h1>;
+ 
+  return jsx1;
 }
 
 export default App;
