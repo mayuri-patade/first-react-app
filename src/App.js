@@ -1,16 +1,15 @@
-//Auto Suggestion
-//Auto Formatting Pretteir
+//JSX :: View
 function App() {
- 
-  //jsx single linear
-  let jsx1 = <h1>Morning</h1>;
-  //jsx muti linear 
-  let jsx2 = (
-    <>
-    <h1>Night</h1>
-    </>
-  );
-  return true ? jsx1 : jsx2;
+ let str = `Hello World`;
+
+
+ return (
+  <>
+  <h1>{str}</h1>
+  <h1>{str.toUpperCase()}</h1>
+  <h1>{str.substring(1)}</h1>
+  </>
+ );
 }
 
 export default App;
