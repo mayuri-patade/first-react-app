@@ -1,13 +1,16 @@
-//JSX : REturn HTML
-//Syntax Rule :: If one linear parenthsis are optional
-//multi linear Parenthetsis are required
-//Syntax :: () //Empty JSX
-//Syntax :: (<h1>Hello</h1>)
+//Auto Suggestion
+//Auto Formatting Pretteir
 function App() {
-  //jsx single linear
-  let jsx1 = <h1>Hello World</h1>;
  
-  return jsx1;
+  //jsx single linear
+  let jsx1 = <h1>Morning</h1>;
+  //jsx muti linear 
+  let jsx2 = (
+    <>
+    <h1>Night</h1>
+    </>
+  );
+  return true ? jsx1 : jsx2;
 }
 
 export default App;
