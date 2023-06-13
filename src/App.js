@@ -1,11 +1,22 @@
 
+function App(){
+  return (
+    <>
+    <h1 className="bg-primary text-light p-3">MY Project</h1>
+    <DataBlock/>
+    <DataBlock/>
+    <DataBlock/>
+    <DataBlock/>
+    </>
+  );
+}
 
-function App() {
+function DataBlock() {
 
  
   return (
     <>
-    <h1 className="bg-primary text-light p-3">My Project</h1>
+    <h1>Title</h1>
 
     <div className="alert alert-primary">
       <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
